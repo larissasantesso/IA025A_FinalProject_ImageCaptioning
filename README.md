@@ -20,9 +20,19 @@ In this project, a combination of Transformers was used to perform the Image Cap
     -   [evaluation](https://wandb.ai/larissa_santesso/ImageCaptioning_Project/runs/32mzuqkb?workspace=user-larissa_santesso)
 
 ## Model
-![Screenshot](images/img_model.png)
-
+![Screenshot](images/img1.png)
 
 ## :books: Tutorial
+
+All codes are located in categorized notebooks, each one is called according to the necessity of the variables or functions to be imported.  Google Colab Pro was used in this project due to the large size of the models. 
+
+-   [run00_dataset.ipynb](): install and import libraries, import dataset, declare configuration variables and other functions.  
+-   [run01_metrics.ipynb]():
+-   [run02_models.ipynb]():
+-   [run03_training_exp008.ipynb]():
+-   [run04_evaluation_exp008.ipynb]():
+-   [run05_cityscapes.ipynb]():
+
+:warning: Some functions were commented in the notebooks run00, run01 and run02 for the purpose of not raising errors since they are called in other notebooks. If you would like to test uncomment each one, but remember to comment when running run03, run04 and run05.
 
 ## References
