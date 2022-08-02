@@ -28,7 +28,7 @@ All codes are located in categorized notebooks, each one is called according to 
 
 -   [run00_dataset.ipynb](): install and import libraries, import dataset, declare configuration variables and other functions. 
 -   [run01_metrics.ipynb](): declare function to calculate metrics.
--   [run02_models.ipynb](): model declared.
+-   [run02_models.ipynb](): model is defined in this notebook. 
 -   [run03_training_exp008.ipynb](): contains all trainings and evaluations looping over the epochs. 
 -   [run04_evaluation_exp008.ipynb](): all  are evaluated quantitatively with the COCOEvalCap tool. 
 -   [run05_cityscapes.ipynb](): all datasets splits (including the original validation complete) and also in filtered categories (tried to retrieve similar images from COCO compared with the Cityscapes dataset).  
