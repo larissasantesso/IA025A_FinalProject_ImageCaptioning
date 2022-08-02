@@ -20,7 +20,7 @@ In this project, a combination of Transformers was used to perform the Image Cap
     -   [evaluation](https://wandb.ai/larissa_santesso/ImageCaptioning_Project/runs/32mzuqkb?workspace=user-larissa_santesso)
 
 ## Model
-![Screenshot](images/img1.png)
+![Screenshot](images/img_model.png)
 
 
 ## :books: Tutorial
