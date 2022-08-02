@@ -26,12 +26,12 @@ In this project, a combination of Transformers was used to perform the Image Cap
 
 All codes are located in categorized notebooks, each one is called according to the necessity of the variables or functions to be imported.  Google Colab Pro was used in this project due to the large size of the models. 
 
--   [run00_dataset.ipynb](): install and import libraries, import dataset, declare configuration variables and other functions.  
--   [run01_metrics.ipynb]():
--   [run02_models.ipynb]():
--   [run03_training_exp008.ipynb]():
--   [run04_evaluation_exp008.ipynb]():
--   [run05_cityscapes.ipynb]():
+-   [run00_dataset.ipynb](): install and import libraries, import dataset, declare configuration variables and other functions. 
+-   [run01_metrics.ipynb](): declare function to calculate metrics.
+-   [run02_models.ipynb](): model declared.
+-   [run03_training_exp008.ipynb](): contains all trainings and evaluations looping over the epochs. 
+-   [run04_evaluation_exp008.ipynb](): all  are evaluated quantitatively with the COCOEvalCap tool. 
+-   [run05_cityscapes.ipynb](): all datasets splits (including the original validation complete) and also in filtered categories (tried to retrieve similar images from COCO compared with the Cityscapes dataset).  
 
 :warning: Some functions were commented in the notebooks run00, run01 and run02 for the purpose of not raising errors since they are called in other notebooks. If you would like to test uncomment each one, but remember to comment when running run03, run04 and run05.
 
