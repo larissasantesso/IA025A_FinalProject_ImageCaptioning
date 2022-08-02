@@ -24,7 +24,7 @@ In this project, a combination of Transformers was used to perform the Image Cap
 
 ## :books: Tutorial
 
-All codes are located in categorized notebooks, each one is called according to the necessity of the variables or functions to be imported.  Google Colab Pro was used in this project due to the large size of the models. 
+All codes are located in categorized notebooks, each one is called according to the necessity of the variables or functions to be imported.  Google Colab Pro was used in this project due to the large size of the models.
 
 -   [run00_dataset.ipynb](): install and import libraries, import dataset, declare configuration variables and other functions. 
 -   [run01_metrics.ipynb](): declare function to calculate metrics.
