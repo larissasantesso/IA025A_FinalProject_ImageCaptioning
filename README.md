@@ -33,6 +33,6 @@ All codes are located in categorized notebooks, each one is called according to 
 -   [run04_evaluation_exp008.ipynb](): all  are evaluated quantitatively with the COCOEvalCap tool. 
 -   [run05_cityscapes.ipynb](): all datasets splits (including the original validation complete) and also in filtered categories (tried to retrieve similar images from COCO compared with the Cityscapes dataset).  
 
-:warning: Some functions were commented in the notebooks run00, run01 and run02 for the purpose of not raising errors since they are called in other notebooks. If you would like to test uncomment each one, but remember to comment when running run03, run04 and run05.
+:warning: Some functions were commented in the notebooks run00, run01 and run02 for the purpose of not raising errors and not waste memory since they are called in other notebooks. If you would like to test uncomment each one, but remember to comment when running run03, run04 and run05.
 
 ## References
