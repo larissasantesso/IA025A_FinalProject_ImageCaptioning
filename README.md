@@ -1,1 +1,1 @@
-# IA025A_FinalProject_ImageCaptioning
+# Image Captioning
