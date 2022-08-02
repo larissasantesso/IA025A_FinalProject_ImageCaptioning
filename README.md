@@ -30,7 +30,7 @@ All codes are located in categorized notebooks, each one is called according to 
 -   [run01_metrics.ipynb](): declare function to calculate metrics.
 -   [run02_models.ipynb](): model is defined in this notebook. 
 -   [run03_training_exp008.ipynb](): contains all trainings and evaluations looping over the epochs. 
--   [run04_evaluation_exp008.ipynb](): all datasets splits (including the original validation complete) and also filtered categories are evaluated quantitatively with the COCOEvalCap tool. Filtered Categories was used with the intetion of retrieving similar images with the Cityscapes dataset.
+-   [run04_evaluation_exp008.ipynb](): all datasets splits (including the original validation) and also a subdataset with filtered categories are evaluated quantitatively with the COCOEvalCap tool. Filtered Categories was used with the intention of retrieving similar images with the Cityscapes dataset.
 -   [run05_cityscapes.ipynb](): 
 
 :warning: Some functions were commented in the notebooks run00, run01 and run02 for the purpose of not raising errors and not waste memory since they are called in other notebooks. If you would like to test uncomment each one, but remember to comment when running run03, run04 and run05.
