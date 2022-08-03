@@ -1,9 +1,10 @@
 # Image Captioning
 
-In this project, a combination of Transformers was used to perform the Image Captioning task. The details are described below:
+In this project, a combination of Transformers was used to perform the Image Captioning task. A qualitative evaluation on a never seen dataset was done in order to check if the model can generalize well. In  this case, it was evaluated in the area of vehicle navigation with the dataset Cityscapes. The details are described below:
+
 - :gear: Architecture: encoder-decoder type
     - 	Encoder: ViT [Hugging Face link](https://huggingface.co/google/vit-base-patch16-224-in21k) (paper [An Image is Worth 16x16 Words](https://doi.org/10.48550/arXiv.2010.11929))
-    - 	Decoder: T5 decoder [Hugging Face link](https://huggingface.co/t5-base) (paper [Text-to-Text Transformer](https://arxiv.org/abs/1910.10683))
+    - 	Decoder: T5 decoder [Hugging Face link](https://huggingface.co/t5-base) (paper [Text-to-Text Transfer Transformer](https://arxiv.org/abs/1910.10683))
 
 - :framed_picture: Datasets:
     -   MS COCO Captions (for fine-tuning and quantitative evaluation)
@@ -21,6 +22,8 @@ In this project, a combination of Transformers was used to perform the Image Cap
 
 ## Model
 ![Screenshot](images/img1.png)
+
+<sub> Image composed with images from [Hugging Face](https://huggingface.co/) and from papers [1] and [3] <sub>
 
 ## :books: Tutorial
 
