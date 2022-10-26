@@ -1,5 +1,12 @@
 # Image Captioning
 
+<p align="left">
+    <img src="https://img.shields.io/badge/PYTORCH-gray?style=for-the-badge&logo=pytorch">
+    <img src="https://img.shields.io/badge/PYTHON-gray?style=for-the-badge&logo=python">
+    <img src="https://img.shields.io/badge/GOOGLE COLAB-gray?style=for-the-badge&logo=googlecolab">
+</p>
+
+---
 In this project, a combination of Transformers was used to perform the Image Captioning task. A qualitative evaluation on a never seen dataset was done in order to check if the model can generalize well. In  this case, it was evaluated in the area of vehicle navigation with the dataset Cityscapes. The details are described below:
 
 - :gear: Architecture: encoder-decoder type
