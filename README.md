@@ -48,7 +48,3 @@ All codes are located in categorized notebooks, each one is called according to 
 ***
 ## References
 
-output:
-  md_document:
-    variant: markdown_github
-bibliography: bibliography.bib
