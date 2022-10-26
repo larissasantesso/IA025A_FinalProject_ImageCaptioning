@@ -38,5 +38,10 @@ All codes are located in categorized notebooks, each one is called according to 
 
 :warning: Some functions were commented in the notebooks run00, run01 and run02 for the purpose of not raising errors and not waste memory since they are called in other notebooks. If you would like to test uncomment each one, but remember to comment when running run03, run04 and run05.
 
+***
 ## References
 
+output:
+  md_document:
+    variant: markdown_github
+bibliography: bibliography.bib
