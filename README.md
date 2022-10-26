@@ -29,7 +29,7 @@ In this project, a combination of Transformers was used to perform the Image Cap
 
 All codes are located in categorized notebooks, each one is called according to the necessity of the variables or functions to be imported.  Google Colab Pro was used in this project due to the large size of the models.
 
--   [run00_dataset.ipynb](): install and import libraries, import dataset, declare configuration variables and other functions. 
+-   [run00_dataset.ipynb](https://github.com/larissasantesso/IA025A_FinalProject_ImageCaptioning/blob/main/notebooks/run00_dataset.ipynb): install and import libraries, import dataset, declare configuration variables and other functions. 
 -   [run01_metrics.ipynb](): declare function to calculate metrics.
 -   [run02_models.ipynb](): model is defined in this notebook. 
 -   [run03_training_exp008.ipynb](): contains all trainings and evaluations looping over the epochs. 
