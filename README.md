@@ -10,12 +10,12 @@
 In this project, a combination of Transformers was used to perform the Image Captioning task. A qualitative evaluation on a never seen dataset was done in order to check if the model can generalize well. In  this case, it was evaluated in the area of vehicle navigation with the dataset Cityscapes. The details are described below:
 
 - :gear: Architecture: encoder-decoder type
-    - 	Encoder: ViT [Hugging Face link](https://huggingface.co/google/vit-base-patch16-224-in21k) ([@vit])
-    - 	Decoder: T5 decoder [Hugging Face link](https://huggingface.co/t5-base) (paper [Text-to-Text Transfer Transformer]([@t5])
+    - 	Encoder: ViT [Hugging Face link](https://huggingface.co/google/vit-base-patch16-224-in21k) (paper [[1]](#1))
+    - 	Decoder: T5 decoder [Hugging Face link](https://huggingface.co/t5-base) (paper [[2]](#2))
 
 - :framed_picture: Datasets:
-    -   MS COCO Captions (for fine-tuning and quantitative evaluation)
-    -   Cityscapes  (for qualitative evaluation)
+    -   MS COCO Captions (for fine-tuning and quantitative evaluation) [[3]](#3)
+    -   Cityscapes  (for qualitative evaluation) [[4]](#4)
 
 - :weight_lifting_woman: Training:
     -   40 epochs
@@ -30,7 +30,7 @@ In this project, a combination of Transformers was used to perform the Image Cap
 ## Model
 ![Screenshot](images/img1.png)
 
-<sub> Image composed with images from [Hugging Face](https://huggingface.co/) and from papers [@vit] and [@t5]<sub>
+<sub> Image composed with images from [Hugging Face](https://huggingface.co/) and from papers  [[1]](#1) and [[2]](#2) <sub>
 
 ## :books: Tutorial
 
@@ -48,3 +48,22 @@ All codes are located in categorized notebooks, each one is called according to 
 ***
 ## References
 
+<a id="1">[1]</a> 
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., ... & Houlsby, N. (2020). 
+An image is worth 16x16 words: Transformers for image recognition at scale. 
+arXiv preprint arXiv:2010.11929.
+
+<a id="2">[2]</a> 
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., ... & Liu, P. J. (2020). 
+Exploring the limits of transfer learning with a unified text-to-text transformer. 
+J. Mach. Learn. Res., 21(140), 1-67.
+    
+<a id="3">[3]</a>     
+Lin, T. Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., ... & Zitnick, C. L. (2014, September). 
+Microsoft coco: Common objects in context. 
+In European conference on computer vision (pp. 740-755). Springer, Cham.
+
+<a id="4">[4]</a>       
+Cordts, M., Omran, M., Ramos, S., Rehfeld, T., Enzweiler, M., Benenson, R., ... & Schiele, B. (2016). 
+The cityscapes dataset for semantic urban scene understanding. 
+In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 3213-3223).
