@@ -48,22 +48,18 @@ All codes are located in categorized notebooks, each one is called according to 
 ***
 ## References
 
-<a id="1">[1]</a> 
-Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., ... & Houlsby, N. (2020). 
+<a id="1">[1]</a> Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., ... & Houlsby, N. (2020). 
 An image is worth 16x16 words: Transformers for image recognition at scale. 
 arXiv preprint arXiv:2010.11929.
 
-<a id="2">[2]</a> 
-Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., ... & Liu, P. J. (2020). 
+<a id="2">[2]</a> Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., ... & Liu, P. J. (2020). 
 Exploring the limits of transfer learning with a unified text-to-text transformer. 
 J. Mach. Learn. Res., 21(140), 1-67.
     
-<a id="3">[3]</a>     
-Lin, T. Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., ... & Zitnick, C. L. (2014, September). 
+<a id="3">[3]</a> Lin, T. Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., ... & Zitnick, C. L. (2014, September). 
 Microsoft coco: Common objects in context. 
 In European conference on computer vision (pp. 740-755). Springer, Cham.
 
-<a id="4">[4]</a>       
-Cordts, M., Omran, M., Ramos, S., Rehfeld, T., Enzweiler, M., Benenson, R., ... & Schiele, B. (2016). 
+<a id="4">[4]</a> Cordts, M., Omran, M., Ramos, S., Rehfeld, T., Enzweiler, M., Benenson, R., ... & Schiele, B. (2016). 
 The cityscapes dataset for semantic urban scene understanding. 
 In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 3213-3223).
